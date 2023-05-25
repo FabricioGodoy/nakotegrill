@@ -1,0 +1,28 @@
+/* ===== FirstBanner======== */
+
+.FirstBanner{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 1em;
+    padding: 1em;
+    background-color: #f8f8f8;
+    justify-content: space-around;
+    
+}
+
+.imgLogo{
+    width: 5em;
+    height: 5em;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+/* ===== FIN FirstBanner======== */
+/* ===== SecondBanner======== */
+
+    
+/* ===== FIN SecondBanner======== */
