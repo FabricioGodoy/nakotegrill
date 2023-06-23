@@ -174,4 +174,10 @@
         margin: 2rem;
     }
 }
+@media (max-width: 900px){
+    .containerDetailFifthBanner p {
+        font-size: 25px;
+        padding: 0; 
+    }
+}
 /* ===== FIN FifthBanner ===== */
