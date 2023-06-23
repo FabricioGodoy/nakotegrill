@@ -1,28 +1,177 @@
-/* ===== FirstBanner======== */
+/* font style ↓ */
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;700&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
 
+
+
+/* ===== FirstBanner======== */
 .FirstBanner{
-    display: flex;
-    flex-wrap: nowrap;
+    display: grid;
+    place-items: center;
     margin: 1em;
     padding: 1em;
-    background-color: #f8f8f8;
     justify-content: space-around;
-    
+    background-image: url('../../public/img/asado/asado1.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
 }
-
 .imgLogo{
-    width: 5em;
-    height: 5em;
+    width: 3em;
+    height: 3em;
+    margin: 3rem;
+    background-color: rgb(251, 251, 251, 0.1);
 }
-
 .titulo{
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: rgb(251, 251, 251, 0.1);
+    margin: 2rem;
+    font-family:  "Rye","Roboto", sans-serif, serif;
+    font-size: 65px;
 }
-
+.subTitulo{
+    display: flex;
+    align-items: center;
+    background-color: rgb(251, 251, 251, 0.1);
+    margin: 1rem;
+    font-family:  "Rye","Roboto", sans-serif, serif;
+    font-size: 50px;
+}
+.subSubTitulo{
+    display: flex;
+    align-items: center;
+    background-color: rgb(251, 251, 251, 0.1);
+    margin: 1rem;
+    font-family:  "Rye","Roboto", sans-serif, serif;
+    font-size: 25px;
+}
 /* ===== FIN FirstBanner======== */
 /* ===== SecondBanner======== */
+.SecondBanner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height:auto;
+    background-color: black;
+    padding: 1em;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.secondBannerCards{
+    display: grid;
+    place-items: center;
+    margin: 1rem;
+    padding: 3em;
+    width: 300px;
+    min-width: 230px;
+    height: 55vh;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    overflow: hidden;
+}
+.secondBannerCards h1{
+    display: flex;
+    font-size: 42px;
+    font-family: 'Antonio', sans-serif;
+}
+.secondBannerCards p{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Antonio', sans-serif;
+    line-height: 1.7;
 
-    
+}   
 /* ===== FIN SecondBanner======== */
+/* ===== ThirdBanner ========= */
+
+.ThirdBanner{
+    display: grid;
+    place-items: center;
+    background-image: url('../../public/img/asado/asado2.jpg');
+    background-attachment: scroll;
+    background-size: 100%;
+    height:auto;
+    min-height:30vh;
+    padding: 3rem;
+    text-align: center;
+    line-height: 2;
+}
+.ThirdBanner h1{
+    font-weight: bold;
+    color: white;
+    font-size: 300%;
+    font-family: 'Antonio', sans-serif;
+    margin: auto;
+}
+/* ===== FIN ThirdBanner ========= */
+/* ===== FourthBanner ========= */
+.FourthBanner{
+    display: grid;
+    place-items: center;
+    background-color: black;
+    margin: auto;
+    width: 100%;
+}
+.paraphFourthBanner{
+    font-family: 'Crimson Pro', serif;
+    font-size: 38px;
+    color: #a6a6a6;
+    padding: 1em;
+}
+.bannerThirdBanner{
+    width: 100%;
+    height: 50%;
+}
+@media (max-width: 500px){
+    .paraphFourthBanner{
+        font-size: 25px;
+    }
+}
+/* ===== FIN FourthBanner ========= */
+/* ===== FifthBanner ===== */
+.FifthBanner{
+    display: grid;
+    place-items: center;
+    background-color: black;
+    margin: auto;
+    width: 100%;
+}
+.FifthBanner h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 450%;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.containerDetailFifthBanner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.containerDetailFifthBanner p {
+    color: white;
+    font-size: 25px;
+    width: 40%;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Crimson Pro', serif;
+    color: #a6a6a6;
+    padding: 0 1em;
+
+}
+.imgBannerAsador{
+    width: 40%;
+    min-width: 15em;
+    max-height:50em ;
+}
+@media (max-width: 1500px){
+    .containerDetailFifthBanner p {
+        width: 80%;
+        margin: 2rem;
+    }
+}
+/* ===== FIN FifthBanner ===== */
