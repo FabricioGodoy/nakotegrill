@@ -95,7 +95,7 @@
     display: grid;
     place-items: center;
     background-image: url('../../public/img/asado/asado2.jpg');
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: 100%;
     height:auto;
     min-height:30vh;
@@ -203,6 +203,8 @@
     align-content: center;
     align-items: center;
     background-image: url('../../public/img/asado/asado1.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
 }
 .carrouselImagenesSextoBanner{
     display: flex;
@@ -248,6 +250,7 @@
     /* width: 100vw; */
     background-image: url('../../public/img/asado/asado1.jpg');
     background-size: 100%;
+    background-attachment: fixed;
     margin: 0 0 2em 0;
 }
 .primerContainerBannerPresupuesto{
