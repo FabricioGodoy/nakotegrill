@@ -140,7 +140,7 @@
     display: grid;
     place-items: center;
     background-color: black;
-    margin: auto;
+    padding: 2em 0 5em 0;
     width: 100%;
 }
 .QuintoBanner h1 {
@@ -171,6 +171,8 @@
     width: 40%;
     min-width: 15em;
     max-height:50em ;
+    border-radius: 10px;
+    opacity: 0.8;
 }
 @media (max-width: 1500px){
     .containerDetailQuintoBanner p {
