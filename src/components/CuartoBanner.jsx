@@ -1,10 +1,10 @@
 import React from 'react'
 import banner from '../../public/img/asado/asado3.jpg'
 
-export const FourthBanner = () => {
+export const CuartoBanner = () => {
   return (
-    <div id='FourthBanner' className='FourthBanner'>
-        <p className='paraphFourthBanner'>
+    <div id='CuartoBanner' className='CuartoBanner'>
+        <p className='paraphCuartoBanner'>
         Si está buscando una experiencia gastronómica única y memorable, FUEGOS & BRASAS es la opción perfecta para usted. Esta empresa se especializa en la preparación de comida al aire libre, utilizando la técnica del asado argentino para crear platos deliciosos y llenos de sabor.
       <br/>
       <br/>

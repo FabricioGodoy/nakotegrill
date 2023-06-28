@@ -1,19 +1,19 @@
 import React from 'react'
-import { FirstBanner } from './components/FirstBanner'
-import { SecondBanner } from './components/SecondBanner'
-import { ThirdBanner } from './components/ThirdBanner'
-import { FourthBanner } from './components/Fourthbanner'
-import { FifthBanner } from './components/FifthBanner'
+import { PrimerBanner } from './components/PrimerBanner'
+import { SegundoBanner } from './components/SegundoBanner'
+import { TercerBanner } from './components/TercerBanner'
+import { CuartoBanner } from './components/CuartoBanner'
+import { QuintoBanner } from './components/QuintoBanner'
 
 export const HomePage = () => {
   
   return (
     <div>
-      <FirstBanner/>
-      <SecondBanner/>
-      <ThirdBanner/>
-      <FourthBanner/>
-      <FifthBanner/>
+      <PrimerBanner/>
+      <SegundoBanner/>
+      <TercerBanner/>
+      <CuartoBanner/>
+      <QuintoBanner/>
 
     </div>
   )

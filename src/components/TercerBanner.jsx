@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-export const ThirdBanner = () => {
+export const TercerBanner = () => {
   return (
     <>
-        <div id='ThirdBanner' className='ThirdBanner'>
+        <div id='TercerBanner' className='TercerBanner'>
             <h1>Eventos corporativos - privados - culturales.
             <br/>Bodas y celebraciones.
             </h1>

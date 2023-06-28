@@ -5,8 +5,8 @@
 
 
 
-/* ===== FirstBanner======== */
-.FirstBanner{
+/* ===== PrimerBanner======== */
+.PrimerBanner{
     display: grid;
     place-items: center;
     margin: 1em;
@@ -46,9 +46,9 @@
     font-family:  "Rye","Roboto", sans-serif, serif;
     font-size: 25px;
 }
-/* ===== FIN FirstBanner======== */
-/* ===== SecondBanner======== */
-.SecondBanner{
+/* ===== FIN PrimerBanner======== */
+/* ===== SegundoBanner======== */
+.SegundoBanner{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -58,7 +58,7 @@
     margin: auto;
     justify-content: space-evenly;
 }
-.secondBannerCards{
+.SegundoBannerCards{
     display: grid;
     place-items: center;
     margin: 1rem;
@@ -72,22 +72,22 @@
     line-height: 1.5;
     overflow: hidden;
 }
-.secondBannerCards h1{
+.SegundoBannerCards h1{
     display: flex;
     font-size: 42px;
     font-family: 'Antonio', sans-serif;
 }
-.secondBannerCards p{
+.SegundoBannerCards p{
     display: flex;
     font-size: 20px;
     font-family: 'Antonio', sans-serif;
     line-height: 1.7;
 
 }   
-/* ===== FIN SecondBanner======== */
-/* ===== ThirdBanner ========= */
+/* ===== FIN SegundoBanner======== */
+/* ===== TercerBanner ========= */
 
-.ThirdBanner{
+.TercerBanner{
     display: grid;
     place-items: center;
     background-image: url('../../public/img/asado/asado2.jpg');
@@ -99,47 +99,47 @@
     text-align: center;
     line-height: 2;
 }
-.ThirdBanner h1{
+.TercerBanner h1{
     font-weight: bold;
     color: white;
     font-size: 300%;
     font-family: 'Antonio', sans-serif;
     margin: auto;
 }
-/* ===== FIN ThirdBanner ========= */
-/* ===== FourthBanner ========= */
-.FourthBanner{
+/* ===== FIN TercerBanner ========= */
+/* ===== CuartoBanner ========= */
+.CuartoBanner{
     display: grid;
     place-items: center;
     background-color: black;
     margin: auto;
     width: 100%;
 }
-.paraphFourthBanner{
+.paraphCuartoBanner{
     font-family: 'Crimson Pro', serif;
     font-size: 38px;
     color: #a6a6a6;
     padding: 1em;
 }
-.bannerThirdBanner{
+.bannerTercerBanner{
     width: 100%;
     height: 50%;
 }
 @media (max-width: 500px){
-    .paraphFourthBanner{
+    .paraphCuartoBanner{
         font-size: 25px;
     }
 }
-/* ===== FIN FourthBanner ========= */
-/* ===== FifthBanner ===== */
-.FifthBanner{
+/* ===== FIN CuartoBanner ========= */
+/* ===== QuintoBanner ===== */
+.QuintoBanner{
     display: grid;
     place-items: center;
     background-color: black;
     margin: auto;
     width: 100%;
 }
-.FifthBanner h1 {
+.QuintoBanner h1 {
     font-weight: bold;
     color: white;
     font-size: 450%;
@@ -147,12 +147,12 @@
     margin-bottom: 1em;
     text-align: center;
 }
-.containerDetailFifthBanner{
+.containerDetailQuintoBanner{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.containerDetailFifthBanner p {
+.containerDetailQuintoBanner p {
     color: white;
     font-size: 25px;
     width: 40%;
@@ -169,15 +169,15 @@
     max-height:50em ;
 }
 @media (max-width: 1500px){
-    .containerDetailFifthBanner p {
+    .containerDetailQuintoBanner p {
         width: 80%;
         margin: 2rem;
     }
 }
 @media (max-width: 900px){
-    .containerDetailFifthBanner p {
+    .containerDetailQuintoBanner p {
         font-size: 25px;
         padding: 0; 
     }
 }
-/* ===== FIN FifthBanner ===== */
+/* ===== FIN QuintoBanner ===== */
