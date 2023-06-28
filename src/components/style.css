@@ -236,6 +236,9 @@
     .fotoCarrouselAsadoSextoBanner{
         width: calc(100vw / 5);
      }
+     .containerDetailSextoBanner p{
+        font-size: 25px;
+     }
 }
 /* ===== FIN SextoBanner ===== */
 
