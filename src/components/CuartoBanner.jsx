@@ -12,7 +12,7 @@ export const CuartoBanner = () => {
         Si está buscando una experiencia gastronómica emocionante y única, no busque más allá de FUEGOS & BRASAS. Su cocina al aire libre es la elección perfecta para eventos únicos e inolvidables.
         </p>
     
-        <img src={banner} alt='banner' className='bannerThirdBanner'/>
+        <img src={banner} alt='banner' className='bannerTercerBanner'/>
     </div>
   )
 }

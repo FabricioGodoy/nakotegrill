@@ -4,6 +4,8 @@ import { SegundoBanner } from './components/SegundoBanner'
 import { TercerBanner } from './components/TercerBanner'
 import { CuartoBanner } from './components/CuartoBanner'
 import { QuintoBanner } from './components/QuintoBanner'
+import { SextoBanner } from './components/SextoBanner'
+import { BannerPresupuesto } from './components/BannerPresupuesto'
 
 export const HomePage = () => {
   
@@ -14,6 +16,8 @@ export const HomePage = () => {
       <TercerBanner/>
       <CuartoBanner/>
       <QuintoBanner/>
+      <SextoBanner/>
+      <BannerPresupuesto/>
 
     </div>
   )
