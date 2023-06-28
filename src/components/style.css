@@ -1,5 +1,5 @@
 /* font style ↓ */
-@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;700&family=Rye&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
 
@@ -17,33 +17,37 @@
     background-size: 100%;
 }
 .imgLogo{
-    width: 3em;
-    height: 3em;
+    width: 5em;
+    height: 5em;
     margin: 3rem;
-    background-color: rgb(251, 251, 251, 0.1);
+    background-color: rgba(244, 244, 244, 0.7);
+    border-radius: 100%;
+
 }
 .titulo{
     display: flex;
     align-items: center;
-    background-color: rgb(251, 251, 251, 0.1);
+    background-color: rgb(251, 251, 251, 0.5);
     margin: 2rem;
-    font-family:  "Rye","Roboto", sans-serif, serif;
+    font-family: 'Antonio', sans-serif;
     font-size: 65px;
+    border-radius:  80% 20%;
 }
 .subTitulo{
     display: flex;
     align-items: center;
-    background-color: rgb(251, 251, 251, 0.1);
+    background-color: rgb(251, 251, 251, 0.3);
     margin: 1rem;
-    font-family:  "Rye","Roboto", sans-serif, serif;
+    font-family: 'Antonio', sans-serif;
     font-size: 50px;
+    border-radius:  10px ;
 }
 .subSubTitulo{
     display: flex;
     align-items: center;
-    background-color: rgb(251, 251, 251, 0.1);
+    background-color: rgb(251, 251, 251, 0.5);
     margin: 1rem;
-    font-family:  "Rye","Roboto", sans-serif, serif;
+    font-family:  "Open Sans","Roboto", sans-serif, serif;
     font-size: 25px;
 }
 /* ===== FIN PrimerBanner======== */
@@ -185,6 +189,7 @@
 /* ===== SextoBanner ===== */
 .SextoBanner{
     width: 100%;
+    margin: 5em 0;
 }
 .h1SextoBanner{
     font-weight: bold;
@@ -211,6 +216,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 2em 0;
 }
 .containerDetailSextoBanner p {
     color: white;
@@ -237,6 +243,7 @@
     /* width: 100vw; */
     background-image: url('../../public/img/asado/asado1.jpg');
     background-size: 100%;
+    margin: 0 0 2em 0;
 }
 .primerContainerBannerPresupuesto{
  display: grid;
