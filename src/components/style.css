@@ -88,6 +88,7 @@
     line-height: 1.7;
 
 }   
+
 /* ===== FIN SegundoBanner======== */
 /* ===== TercerBanner ========= */
 
@@ -251,7 +252,8 @@
     background-image: url('../../public/img/asado/asado1.jpg');
     background-size:auto;
     background-attachment: fixed;
-    margin: 0 0 2em 0;
+    /* margin: 0 0 .5em 0; */
+    border-bottom: 15px solid #441212;
 }
 .primerContainerBannerPresupuesto{
  display: grid;
@@ -259,6 +261,10 @@
  color: white;
  padding: 10px ;
  width: 60vw;
+ align-content: space-around;
+}
+.primerContainerBannerPresupuesto h1{
+    text-align: center;
 }
 .containerIconContact{
     display: flex;
@@ -278,13 +284,41 @@
     place-items: center;
     color: white;
     padding: 10px ;
-    background-image: url('../../public/img/asado/asado3.jpg');
-    background-size: 150%;
+/*     background-image: url('../../public/img/asado/asado3.jpg');
+   background-size: 150%; */ 
+    background-color: rgba(137, 91, 54, 0.5);;
+    border-radius: 15%;
     line-height: 1.5;
     width: 50vw;
 }
-.segundoContainerBannerPresupuesto h4 ul li{
-    list-style: none;;
+.segundoContainerBannerPresupuesto h4 {
+    font-size: 25px;
+}
+.segundoContainerBannerPresupuesto ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    line-height: 2.5;
+    font-size: 20px;
+}
+.segundoContainerBannerPresupuesto ul li{
+    list-style: none;
+}
+
+@media (max-width: 800px){
+    .segundoContainerBannerPresupuesto ul{
+        line-height: 1.5;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px){
+    .segundoContainerBannerPresupuesto h4 {
+        font-size: 20px;
+    }
+    .segundoContainerBannerPresupuesto ul{
+    font-size: 15px;
+}
 }
 @media (max-width: 400px){
     .iconContactoPresupuesto{

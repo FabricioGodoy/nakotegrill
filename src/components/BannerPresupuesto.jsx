@@ -20,11 +20,11 @@ export const BannerPresupuesto = () => {
         </div>
         
         <div className='segundoContainerBannerPresupuesto'>        
-            <h4>
-                 <ul>
-                    Contactate indicando:<li>-Nombre.</li><li>-Teléfono.</li><li>-Fecha.</li> <li>-Tipo de Evento. </li> <li>-Para cuantas personas.</li><li>- Hay menu vegetarisno o vegano? cuantas personas?</li>
-                </ul>
-            </h4>
+            <h4>Contactate indicando:</h4>
+            <ul>
+                <li>-Nombre.</li><li>-Teléfono.</li><li>-Fecha.</li> <li>-Tipo de Evento. </li> <li>-Para cuantas personas.</li><li>- Hay menu vegetarisno o vegano? cuantas personas?</li>
+            </ul>
+            
         </div>
 
     </div>
