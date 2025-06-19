@@ -3,6 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;700&family=Rye&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
 
+:root {
+    --main-bg-color: #313131;
+    --text-color: #a6a6a6;
+    --border-dark: #441212;
+    --banner-bg: black;
+}
+
 
 
 /* ===== PrimerBanner======== */
@@ -57,7 +64,7 @@
     flex-wrap: wrap;
     width: 100%;
     height:auto;
-    background-color: black;
+    background-color: var(--banner-bg);
     padding: 1em;
     margin: auto;
     justify-content: space-evenly;
@@ -116,14 +123,14 @@
 .CuartoBanner{
     display: grid;
     place-items: center;
-    background-color: black;
+    background-color: var(--banner-bg);
     margin: auto;
     width: 100%;
 }
 .paraphCuartoBanner{
     font-family: 'Crimson Pro', serif;
     font-size: 38px;
-    color: #a6a6a6;
+    color: var(--text-color);
     padding: 1em;
 }
 .bannerTercerBanner{
@@ -140,7 +147,7 @@
 .QuintoBanner{
     display: grid;
     place-items: center;
-    background-color: black;
+    background-color: var(--banner-bg);
     padding: 2em 0 5em 0;
     width: 100%;
 }
@@ -164,7 +171,7 @@
     font-size: 38px;
     text-align: center;
     font-family: 'Crimson Pro', serif;
-    color: #a6a6a6;
+    color: var(--text-color);
     padding: 0 1em;
 
 }
@@ -230,7 +237,7 @@
     font-size: 38px;
     text-align: center;
     font-family: 'Crimson Pro', serif;
-    color: #a6a6a6;
+    color: var(--text-color);
     padding: 0 1em;
     text-align: j;
 }
@@ -253,7 +260,7 @@
     background-size:auto;
     background-attachment: fixed;
     /* margin: 0 0 .5em 0; */
-    border-bottom: 15px solid #441212;
+    border-bottom: 15px solid var(--border-dark);
 }
 .primerContainerBannerPresupuesto{
  display: grid;

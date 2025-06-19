@@ -7,7 +7,7 @@ export const BannerPresupuesto = () => {
     <div id='BannerPresupuesto' className='BannerPresupuesto'>
         
         <div className='primerContainerBannerPresupuesto'>
-            <h1> SOLICITA TU PRESUPUESTO</h1>
+            <h1> SOLICITÁ TU PRESUPUESTO</h1>
           
             <div className='containerIconContact'>
                 <a className='iconContactoPresupuesto' href="mailto:ignaciodiazguinazu@gmail.com?subject=Presupuesto para Evento"  target="_blank">
@@ -22,7 +22,7 @@ export const BannerPresupuesto = () => {
         <div className='segundoContainerBannerPresupuesto'>        
             <h4>Contactate indicando:</h4>
             <ul>
-                <li>-Nombre.</li><li>-Teléfono.</li><li>-Fecha.</li> <li>-Tipo de Evento. </li> <li>-Para cuantas personas.</li><li>- Hay menu vegetarisno o vegano? cuantas personas?</li>
+                <li>- Nombre</li><li>- Teléfono</li><li>- Fecha</li> <li>- Tipo de evento</li> <li>- Cantidad de personas</li><li>- ¿Menú vegetariano o vegano? ¿Cuántas personas?</li>
             </ul>
             
         </div>

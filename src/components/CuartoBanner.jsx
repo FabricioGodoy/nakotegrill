@@ -5,14 +5,14 @@ export const CuartoBanner = () => {
   return (
     <div id='CuartoBanner' className='CuartoBanner'>
         <p className='paraphCuartoBanner'>
-        Si está buscando una experiencia gastronómica única y memorable, FUEGOS & BRASAS es la opción perfecta para usted. Esta empresa se especializa en la preparación de comida al aire libre, utilizando la técnica del asado argentino para crear platos deliciosos y llenos de sabor.
+        Si buscás una experiencia gastronómica distinta y memorable, FUEGOS & BRASAS es tu mejor elección. Nos especializamos en la cocina a cielo abierto, aplicando el tradicional asado argentino para lograr sabores irresistibles.
       <br/>
       <br/>
-        Con su equipo experto y su pasión por los ingredientes frescos y de alta calidad, FUEGOS & BRASAS ofrece una experiencia culinaria inolvidable. Ya sea que esté planeando una boda, una fiesta de cumpleaños o cualquier otro evento especial, su cocina al aire libre es la opción perfecta para crear un ambiente único y memorable. 
-        Si está buscando una experiencia gastronómica emocionante y única, no busque más allá de FUEGOS & BRASAS. Su cocina al aire libre es la elección perfecta para eventos únicos e inolvidables.
+        Nuestro equipo, apasionado por los ingredientes frescos y de calidad, garantiza una experiencia culinaria inolvidable. Ya sea una boda, un cumpleaños o cualquier celebración, nuestra cocina al aire libre crea un ambiente singular.
+        Si querés sorprender a tus invitados, FUEGOS & BRASAS es la opción ideal para encuentros inolvidables.
         </p>
-    
-        <img src={banner} alt='banner' className='bannerTercerBanner'/>
+
+        <img src={banner} alt='Asado al aire libre' className='bannerTercerBanner'/>
     </div>
   )
 }

@@ -3,23 +3,23 @@ import React from 'react'
 export const SegundoBanner = () => {
   return (
     <div id="SegundoBanner" className="SegundoBanner">
-      <div className='SegundoBannerCards'>   
-        <h1>PRODUCTOS DE CALIDAD</h1>
+      <div className='SegundoBannerCards'>
+        <h1>INGREDIENTES DE PRIMERA</h1>
          <hr/>
 
-        <p>Nuestro abastecimiento proviene de productores locales seleccionando fruta y verdura orgánica de estación.</p>
+        <p>Nos abastecemos de productores locales, seleccionando frutas y verduras orgánicas de estación.</p>
       </div>
       
-      <div className='SegundoBannerCards'>   
-        <h1>COCINA A LEÑA</h1>
+      <div className='SegundoBannerCards'>
+        <h1>ARTE A LA LEÑA</h1>
          <hr/>
-        <p>NUESTROS FUEGOS Y BRASAS SE REALIZAN CON LEÑA SIGUIENDO LAS ANTIGUAS TRADICIONES GAUCHAS.</p>
+        <p>Nuestros fuegos se preparan con leña siguiendo las antiguas tradiciones gauchas.</p>
       </div>
      
-      <div className='SegundoBannerCards'>  
-        <h1>FUEGOS Y BRASAS VEGAN</h1>
+      <div className='SegundoBannerCards'>
+        <h1>FUEGOS VEGANOS</h1>
          <hr/>
-        <p>Nuestra cocina de fuegos vegana es perfecta para aquellos que siguen una dieta basada en plantas y buscan opciones deliciosas y saludables.</p>
+        <p>La propuesta vegana es ideal para quienes siguen una dieta basada en plantas y desean sabores únicos.</p>
       </div>
     </div>
   )
