@@ -7,20 +7,18 @@ export const SextoBanner = () => {
   return (
     <div id='SextoBanner' className='SextoBanner'>
       
-        <article name="carrousel" id="carrouselImagenesSextoBanner" className='carrouselImagenesSextoBanner'> 
-           
+        <h1 className='h1SextoBanner'>COCINA VEGANA AL FUEGO</h1>
+
+        <article name="carrousel" id="carrouselImagenesSextoBanner" className='carrouselImagenesSextoBanner'>
+
+            <img src={fotoAsador1} alt='fotoasador' className='fotoCarrouselAsadoSextoBanner' />
             <img src={fotoAsador2} alt='fotoasador' className='fotoCarrouselAsadoSextoBanner' />
-      
-        <h1 className='h1SextoBanner'>COCINA DE FUEGOS VEGAN</h1>
-          
-            <img src={fotoAsador2} alt='fotoasador' className='fotoCarrouselAsadoSextoBanner' />
-        
+            <img src={fotoAsador3} alt='fotoasador' className='fotoCarrouselAsadoSextoBanner' />
+
         </article>
 
         <div className='containerDetailSextoBanner'>
-            <p>Nuestra cocina de fuegos vegana es perfecta para aquellos que siguen una dieta basada en plantas y buscan opciones deliciosas y saludables. Utilizamos verduras orgánicas, ingredientes frescos y de alta calidad para crear platillos veganos satisfactorios y sabrosos. Desde platos principales hasta entradas y postres.
-            Además, nuestra cocina de fuegos vegana es ideal para aquellos con intolerancias alimentarias o alergias, ya que muchos de nuestros platillos son libres de gluten, soya y otros alérgenos comunes. ¡Descubre la deliciosa variedad de opciones disponibles en nuestra cocina de fuegos vegana hoy mismo!
-            </p>
+            <p>Propuesta vegana con ingredientes orgánicos y sabores innovadores. Platos al fuego aptos para diferentes dietas e intolerancias.</p>
         </div>
         
     </div>
